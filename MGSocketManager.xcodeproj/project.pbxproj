@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62D164128CFD4E2620D7C59 /* libPods-MGSocketManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1D031F24A25583183A6B13 /* libPods-MGSocketManager.a */; };
+		F60EEFD520EF491400E5E537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F60EEFD420EF491400E5E537 /* AppDelegate.m */; };
+		F60EEFD820EF491400E5E537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60EEFD720EF491400E5E537 /* ViewController.m */; };
+		F60EEFDB20EF491400E5E537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60EEFD920EF491400E5E537 /* Main.storyboard */; };
+		F60EEFDD20EF491500E5E537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60EEFDC20EF491500E5E537 /* Assets.xcassets */; };
+		F60EEFE020EF491500E5E537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60EEFDE20EF491500E5E537 /* LaunchScreen.storyboard */; };
+		F60EEFE320EF491500E5E537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F60EEFE220EF491500E5E537 /* main.m */; };
+		F60EEFEB20EF4A6000E5E537 /* MGSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F60EEFE920EF4A6000E5E537 /* MGSocketManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21564814E6C90FD7EC3DFACC /* Pods-MGSocketManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGSocketManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGSocketManager/Pods-MGSocketManager.debug.xcconfig"; sourceTree = "<group>"; };
+		30A4FFEDEF60C68A8F402C33 /* Pods-MGSocketManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGSocketManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGSocketManager/Pods-MGSocketManager.release.xcconfig"; sourceTree = "<group>"; };
+		BC1D031F24A25583183A6B13 /* libPods-MGSocketManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGSocketManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60EEFD020EF491400E5E537 /* MGSocketManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGSocketManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60EEFD320EF491400E5E537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F60EEFD420EF491400E5E537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F60EEFD620EF491400E5E537 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F60EEFD720EF491400E5E537 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F60EEFDA20EF491400E5E537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F60EEFDC20EF491500E5E537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60EEFDF20EF491500E5E537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F60EEFE120EF491500E5E537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60EEFE220EF491500E5E537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F60EEFE920EF4A6000E5E537 /* MGSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSocketManager.m; sourceTree = "<group>"; };
+		F60EEFEA20EF4A6000E5E537 /* MGSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSocketManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60EEFCD20EF491400E5E537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D164128CFD4E2620D7C59 /* libPods-MGSocketManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EC4EF91401FD93AC8D06A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D031F24A25583183A6B13 /* libPods-MGSocketManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9137CEB3FA0AE064C98C131F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21564814E6C90FD7EC3DFACC /* Pods-MGSocketManager.debug.xcconfig */,
+				30A4FFEDEF60C68A8F402C33 /* Pods-MGSocketManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F60EEFC720EF491400E5E537 = {
+			isa = PBXGroup;
+			children = (
+				F60EEFD220EF491400E5E537 /* MGSocketManager */,
+				F60EEFD120EF491400E5E537 /* Products */,
+				9137CEB3FA0AE064C98C131F /* Pods */,
+				60EC4EF91401FD93AC8D06A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F60EEFD120EF491400E5E537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60EEFD020EF491400E5E537 /* MGSocketManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60EEFD220EF491400E5E537 /* MGSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				F60EEFD320EF491400E5E537 /* AppDelegate.h */,
+				F60EEFD420EF491400E5E537 /* AppDelegate.m */,
+				F60EEFD620EF491400E5E537 /* ViewController.h */,
+				F60EEFD720EF491400E5E537 /* ViewController.m */,
+				F60EEFEA20EF4A6000E5E537 /* MGSocketManager.h */,
+				F60EEFE920EF4A6000E5E537 /* MGSocketManager.m */,
+				F60EEFD920EF491400E5E537 /* Main.storyboard */,
+				F60EEFDC20EF491500E5E537 /* Assets.xcassets */,
+				F60EEFDE20EF491500E5E537 /* LaunchScreen.storyboard */,
+				F60EEFE120EF491500E5E537 /* Info.plist */,
+				F60EEFE220EF491500E5E537 /* main.m */,
+			);
+			path = MGSocketManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60EEFCF20EF491400E5E537 /* MGSocketManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60EEFE620EF491500E5E537 /* Build configuration list for PBXNativeTarget "MGSocketManager" */;
+			buildPhases = (
+				2A33121B39CE3C3C033F2F17 /* [CP] Check Pods Manifest.lock */,
+				F60EEFCC20EF491400E5E537 /* Sources */,
+				F60EEFCD20EF491400E5E537 /* Frameworks */,
+				F60EEFCE20EF491400E5E537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSocketManager;
+			productName = MGSocketManager;
+			productReference = F60EEFD020EF491400E5E537 /* MGSocketManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60EEFC820EF491400E5E537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "小马哥";
+				TargetAttributes = {
+					F60EEFCF20EF491400E5E537 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F60EEFCB20EF491400E5E537 /* Build configuration list for PBXProject "MGSocketManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60EEFC720EF491400E5E537;
+			productRefGroup = F60EEFD120EF491400E5E537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60EEFCF20EF491400E5E537 /* MGSocketManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60EEFCE20EF491400E5E537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60EEFE020EF491500E5E537 /* LaunchScreen.storyboard in Resources */,
+				F60EEFDD20EF491500E5E537 /* Assets.xcassets in Resources */,
+				F60EEFDB20EF491400E5E537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A33121B39CE3C3C033F2F17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGSocketManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60EEFCC20EF491400E5E537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60EEFEB20EF4A6000E5E537 /* MGSocketManager.m in Sources */,
+				F60EEFD820EF491400E5E537 /* ViewController.m in Sources */,
+				F60EEFE320EF491500E5E537 /* main.m in Sources */,
+				F60EEFD520EF491400E5E537 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F60EEFD920EF491400E5E537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60EEFDA20EF491400E5E537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F60EEFDE20EF491500E5E537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60EEFDF20EF491500E5E537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F60EEFE420EF491500E5E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F60EEFE520EF491500E5E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60EEFE720EF491500E5E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21564814E6C90FD7EC3DFACC /* Pods-MGSocketManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FQ549BS6;
+				INFOPLIST_FILE = MGSocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxsihe.MGSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F60EEFE820EF491500E5E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A4FFEDEF60C68A8F402C33 /* Pods-MGSocketManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FQ549BS6;
+				INFOPLIST_FILE = MGSocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxsihe.MGSocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60EEFCB20EF491400E5E537 /* Build configuration list for PBXProject "MGSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60EEFE420EF491500E5E537 /* Debug */,
+				F60EEFE520EF491500E5E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60EEFE620EF491500E5E537 /* Build configuration list for PBXNativeTarget "MGSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60EEFE720EF491500E5E537 /* Debug */,
+				F60EEFE820EF491500E5E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F60EEFC820EF491400E5E537 /* Project object */;
+}
